@@ -1,0 +1,41 @@
+{
+  "name": "厨锅与炉灶",
+  "icon": "farmersdelight:cooking_pot",
+  "category": "basics",
+  "sortnum": "4",
+  "pages": [
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "厨锅",
+      "item1": "minecraft:brick",
+      "item2": "minecraft:wooden_shovel",
+      "item3": "minecraft:brick",
+      "item4": "minecraft:iron_ingot",
+      "item5": "minecraft:water_bucket",
+      "item6": "minecraft:iron_ingot",
+      "item7": "minecraft:iron_ingot",
+      "item8": "minecraft:iron_ingot",
+      "item9": "minecraft:iron_ingot",
+      "finalitem": "farmersdelight:cooking_pot",
+      "info": "厨锅是农夫乐事新增的， 可用来制作大部分食物的“工作台”。 "
+    },
+    {
+      "type": "text",
+      "text": "要用厨锅制作食物， 首先要将它放在篝火或炉灶这样的热源上来加热。 做完一道美食后， 你可以在对应的框槽里用正确的容器将它盛出来， 或者左键带走厨锅， 厨锅里仍会保留你做的食物。 "
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "炉灶",
+      "item1": "minecraft:iron_ingot",
+      "item2": "minecraft:iron_ingot",
+      "item3": "minecraft:iron_ingot",
+      "item4": "minecraft:brick",
+      "item6": "minecraft:brick",
+      "item7": "minecraft:brick",
+      "item8": "minecraft:campfire",
+      "item9": "minecraft:brick",
+      "finalitem": "farmersdelight:stove",
+      "info": "炉灶类似升级版的篝火， 变化之处在于你可以同时在上面烹饪6个未熟食物。 "
+    }
+  ]
+}

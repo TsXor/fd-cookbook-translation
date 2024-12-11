@@ -1,0 +1,23 @@
+{
+    "name": "草秆",
+    "icon": "farmersdelight:straw",
+    "category": "basics",
+    "sortnum": "6",
+    "pages": [
+      {
+        "type": "text",
+        "title": "草秆",
+        "text": "草秆可以用$(l:basics/knife)小刀$()剪草、高草 （必然掉落） 、小麦或稻米获得， 并且可以用于合成其他物品， 也可以用九个草秆合成一个$(l:basics/storage_blocks)稻草块$()."
+      },
+      {
+        "type": "crafting_table_nofood",
+        "foodname":"粗布",
+        "item1": "farmersdelight:straw",
+        "item2": "farmersdelight:straw",
+        "item4": "farmersdelight:straw",
+        "item5": "farmersdelight:straw",
+        "finalitem": "farmersdelight:canvas",
+        "info": "粗布可用于许多合成配方。  （画， 书， 脚手架等） "
+      }
+    ]
+  }

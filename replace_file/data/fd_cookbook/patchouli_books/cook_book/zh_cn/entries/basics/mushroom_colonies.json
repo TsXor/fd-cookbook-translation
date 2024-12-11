@@ -1,0 +1,18 @@
+{
+    "name": "菌落",
+    "icon": "farmersdelight:brown_mushroom_colony",
+    "category": "basics",
+    "sortnum": "9",
+    "pages": [
+      {
+        "type": "mushroom_colonies",
+        "text": "菌落是蘑菇的集群， 含有2-5个蘑菇， 具体数量取决于生长阶段，  $(t:长有5个伞盖时)$(#00FF00)完全成熟$()后可$(t:否则只掉5个蘑菇)$(#00FF00)用剪刀$()$(t:右键取伞盖， 最少保留两个)$(#00FF00)采集$()。 蘑菇种在亮度低于12的暗处的$(l:basics/rich_soil)沃土$()上能生长为菌落。 "
+      },
+      {
+        "type": "image",
+        "images": ["fd_cookbook:textures/gui/cookbook/mushroom_colonies.png"],
+        "text": "从一个普通蘑菇到完全成熟的蘑菇菌落",
+        "border": true
+      }  
+    ]
+  }

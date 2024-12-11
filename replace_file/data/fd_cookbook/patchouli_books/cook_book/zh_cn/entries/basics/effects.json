@@ -1,0 +1,18 @@
+{
+    "name": "增益",
+    "icon": "farmersdelight:textures/mob_effect/nourished.png",
+    "category": "basics",
+    "sortnum": "11",
+    "pages": [
+      {
+        "type": "nourished",
+        "title": "滋养",
+        "text": "当你拥有“滋养”效果时， 跑步、跳跃、攻击等动作不会消耗你的饱和度和饥饿值， 但回复生命值仍需要饱和度。  （注： 玩家受到伤害时会暂停“滋养”的效果， 以方便玩家通过进食等手段回血。 ） "
+      },
+      {
+        "type": "comfort",
+        "title": "舒适",
+        "text": "当你拥有“舒适”效果时， 你将免疫减益 （缓慢， 饥饿， 虚弱） ， 这些负面效果在“舒适”生效时会被移除， “舒适”失效前不会再获得。 "
+      }
+    ]
+  }

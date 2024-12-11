@@ -1,0 +1,30 @@
+{
+  "name": "小刀",
+  "icon": "farmersdelight:netherite_knife",
+  "category": "basics",
+  "sortnum": "3",
+  "pages": [
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "小刀",
+      "item2": "minecraft:flint,minecraft:iron_ingot,minecraft:gold_ingot,minecraft:diamond",
+      "item4": "minecraft:stick",
+      "finalitem": "farmersdelight:flint_knife,farmersdelight:iron_knife,farmersdelight:golden_knife,farmersdelight:diamond_knife",
+      "info": "小刀是一种新工具/武器。 它们可以用除木头和石头 （被替换为燧石） 外的 （原版） 材料制作。 "
+    },
+    {
+      "type": "text",
+      "text": "所有小刀都有2,2的攻击速度， 根据材料等级拥有不同的攻击伤害： $(li)燧石： 3$(li)铁： 4$(li)金： 2$(li)钻石： 5$(li)下界合金： 6$(br)它们也是以下方块的有效挖掘工具： $(li)蛋糕和派$(li)所有羊毛方块$(li)树叶$(li)蜘蛛网$(li)基于草秆的方块"
+    },
+    {
+      "type": "text",
+      "title": "杀死生物",
+      "text": "$(t:注： 实际对羽毛、皮革、兔子皮、潜影壳、蛛丝生效)$(#00FF00)杀死生物时， 它们的外皮 （羽毛， 皮革等） 必定掉落 （如杀牛时皮革掉落从0-2变为1-3） 。 $()火腿只能通过用小刀杀死猪 （不一定掉落） 或疣猪兽 （必然掉落） 获得。 当你用小刀收割草、高草、小麦、稻米时你也有可能得到草秆。 "
+    },
+    {
+      "type": "text",
+      "title": "附魔",
+      "text": "小刀可以附魔： $(br)锋利， 亡灵杀手， 节肢杀手， 击退， 火焰附加， 抢夺， 效率， 耐久， 经验修补。 $(br)此外还有一种全新的附魔——$(l)“背刺”$()， 它提升从背后攻击目标时的伤害， 不同级别效果如下： $(br)$(li)背刺I：  1.4x$(li)背刺II：  1.8x$(li)背刺III：  2.2x"
+    }
+  ]
+}

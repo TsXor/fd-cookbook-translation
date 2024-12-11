@@ -1,0 +1,38 @@
+{
+    "name": "绳子",
+    "icon": "farmersdelight:rope",
+    "category": "basics",
+    "sortnum": "7",
+    "pages": [
+      {
+        "type": "crafting_table_nofood",
+        "foodname":"绳子",
+        "item2": "farmersdelight:straw",
+        "item5": "farmersdelight:straw",
+        "item8": "farmersdelight:straw",
+        "finalitem": "farmersdelight:rope",
+        "info": "绳子可以右键放下并向下延伸， 然后即可爬上爬下。 "
+      },
+      {
+        "type": "crafting_table_nofood",
+        "foodname":"安全网",
+        "item1": "farmersdelight:rope",
+        "item2": "farmersdelight:rope",
+        "item4": "farmersdelight:rope",
+        "item5": "farmersdelight:rope",
+        "finalitem": "farmersdelight:safety_net",
+        "info": "平放安全网， 让它吸收所有的掉落伤害。 "
+      },
+      {
+        "type": "crafting_table_nofood",
+        "foodname":"栓绳",
+        "item1": "farmersdelight:rope",
+        "item2": "farmersdelight:rope",
+        "item4": "farmersdelight:rope",
+        "item5": "farmersdelight:rope",
+        "item9": "farmersdelight:rope",
+        "finalitem": "minecraft:lead",
+        "info": "绳子可用于合成栓绳。 "
+      }
+    ]
+}

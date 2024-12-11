@@ -1,0 +1,72 @@
+{
+  "name": "派",
+  "icon": "farmersdelight:chocolate_pie",
+  "category": "recipes",
+  "sortnum": "5",
+  "pages": [
+    {
+      "type": "text",
+      "title": "派",
+      "text": "农夫乐事添加了3种类似于普通蛋糕的可放置的派$(strike)所以为什么没有奶油糖果派$()。 $(br)派可以在砧板上切成4片， 原版蛋糕也可以在砧板上切成7片。 "
+    },
+    {
+      "type": "crafting_table_pie_crust",
+      "info": "你也可以用工作台把7个蛋糕切片或4个派切片拼回原来的形态。 "
+    },
+    {
+      "type": "crafting_table_pie",
+      "foodname": "巧克力派",
+      "item1": "minecraft:cocoa_beans",
+      "item2": "minecraft:cocoa_beans",
+      "item3": "minecraft:cocoa_beans",
+      "item4": "minecraft:milk_bucket,farmersdelight:milk_bottle",
+      "item5": "minecraft:milk_bucket,farmersdelight:milk_bottle",
+      "item6": "minecraft:milk_bucket,farmersdelight:milk_bottle",
+      "item7": "minecraft:sugar",
+      "item8": "farmersdelight:pie_crust",
+      "item9": "minecraft:sugar",
+      "finalitem": "farmersdelight:chocolate_pie",
+      "slice": "farmersdelight:chocolate_pie_slice",
+      "hunger_amount": "x1.5  （每块切片） ",
+      "saturation_amount": "x0.9  （每块切片） ",
+      "effect": "每一块切片必定带来30秒的$(9)迅捷$()效果"
+    },
+    {
+      "type": "crafting_table_pie",
+      "foodname": "甜浆果芝士派",
+      "item1": "minecraft:sweet_berries",
+      "item2": "minecraft:sweet_berries",
+      "item3": "minecraft:sweet_berries",
+      "item4": "minecraft:sweet_berries",
+      "item5": "minecraft:sweet_berries",
+      "item6": "minecraft:sweet_berries",
+      "item7": "minecraft:milk_bucket,farmersdelight:milk_bottle",
+      "item8": "farmersdelight:pie_crust",
+      "item9": "minecraft:milk_bucket,farmersdelight:milk_bottle",
+      "finalitem": "farmersdelight:sweet_berry_cheesecake",
+      "slice": "farmersdelight:sweet_berry_cheesecake_slice",
+      "hunger_amount": "x1.5  （每块切片） ",
+      "saturation_amount": "x0.9  （每块切片） ",
+      "effect": "每一块切片必定带来30秒的$(9)迅捷$()效果"
+    },
+    {
+      "type": "crafting_table_pie",
+      "foodname": "苹果派",
+      "title_notice": "$(strike)啊噗噜派$()",
+      "item1": "minecraft:wheat",
+      "item2": "minecraft:wheat",
+      "item3": "minecraft:wheat",
+      "item4": "minecraft:apple",
+      "item5": "minecraft:apple",
+      "item6": "minecraft:apple",
+      "item7": "minecraft:sugar",
+      "item8": "farmersdelight:pie_crust",
+      "item9": "minecraft:sugar",
+      "finalitem": "farmersdelight:apple_pie",
+      "slice": "farmersdelight:apple_pie_slice",
+      "hunger_amount": "x1.5  （每块切片） ",
+      "saturation_amount": "x0.9  （每块切片） ",
+      "effect": "每一块切片必定带来30秒的$(9)迅捷$()效果"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+    "name": "沃土",
+    "icon": "farmersdelight:rich_soil",
+    "category": "basics",
+    "sortnum": "8",
+    "pages": [
+      {
+        "type": "text",
+        "title": "沃土",
+        "text": "沃土是增强版的泥土/耕地。 当任何可生长的植物被种植在沃土 （或沃土耕地） 上时， 它的生长将被随机加速， 类似于使用骨粉。 沃土也可以用锄头转换为沃土耕地且不会因生物踩踏而退化。 "
+      },
+      {
+        "type": "crafting_table_nofood",
+        "foodname":"有机肥料",
+        "item1": "minecraft:dirt",
+        "item2": "farmersdelight:straw,minecraft:rotten_flesh",
+        "item3": "farmersdelight:straw,minecraft:rotten_flesh",
+        "item4": "minecraft:bone_meal,farmersdelight:straw",
+        "item5": "minecraft:bone_meal,farmersdelight:straw",
+        "item6": "farmersdelight:tree_bark,minecraft:bone_meal",
+        "item7": "farmersdelight:tree_bark,minecraft:bone_meal",
+        "item8": "farmersdelight:tree_bark,minecraft:bone_meal",
+        "item9": "farmersdelight:tree_bark,minecraft:bone_meal",
+        "finalitem": "farmersdelight:organic_compost",
+        "info": "想得到沃土， 你$(t:村庄里也有几率出现有机肥料与沃土)$(#00FF00)首先要合成有机肥料， 然后将它转化为沃土$()。 "
+      },
+      {
+        "type": "text",
+        "title": "获取沃土",
+        "text": "要转化有机肥料， 你需要将它放在主世界， 等它随时间腐烂。 $(br)下列事物可以加快这个过程： $(br)$(li)棕色&红色蘑菇及其$(l:basics/mushroom_colonies)菌落$()$(li)灰化土和菌丝土$(li)其他有机肥料方块$(li)沃土、沃土耕地"
+      },
+      {
+        "type": "rich_soil",
+        "text": "有机肥料转化为沃土的过程。 "
+      }
+    ]
+  }

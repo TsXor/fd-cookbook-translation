@@ -1,0 +1,32 @@
+{
+  "name": "动物食品",
+  "icon": "farmersdelight:dog_food",
+  "category": "recipes",
+  "sortnum": "9",
+  "pages": [
+    {
+      "type": "cooking_pot",
+      "foodname": "狗粮",
+      "item1": "minecraft:rotten_flesh",
+      "item2": "minecraft:bone_meal",
+      "item3": "minecraft:mutton,farmersdelight:mutton_chops,minecraft:rabbit,minecraft:chicken,farmersdelight:chicken_cuts",
+      "item4": "farmersdelight:rice",
+      "finalitem": "farmersdelight:dog_food",
+      "container": "minecraft:bowl",
+      "hunger_amount": "x2",
+      "saturation_amount": "x1.6",
+      "effect_inline": "喂狗时： 施加$(li)5分钟 迅捷$(li)5分钟 力量$(li)5分钟 抗性提升",
+      "effect": ""
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "马食",
+      "item1": "farmersdelight:rice_bale,minecraft:hay_block",
+      "item2": "minecraft:apple",
+      "item4": "minecraft:apple",
+      "item5": "minecraft:golden_carrot",
+      "finalitem": "farmersdelight:horse_feed",
+      "info": "喂给已驯服的坐骑时： 施加$(li)5分钟 迅捷II$(li)5分钟 跳跃提升"
+    }
+  ]
+}

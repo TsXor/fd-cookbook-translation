@@ -1,0 +1,51 @@
+{
+  "name": "储物方块",
+  "icon": "farmersdelight:onion_crate",
+  "category": "basics",
+  "sortnum": "2",
+  "pages": [
+    {
+      "type": "crafting_table_nofood",
+      "foodname":"橱柜",
+      "item1": "minecraft:oak_slab,minecraft:birch_slab,minecraft:spruce_slab,minecraft:jungle_slab,minecraft:acacia_slab,minecraft:dark_oak_slab,minecraft:crimson_slab,minecraft:warped_slab",
+      "item2": "minecraft:oak_slab,minecraft:birch_slab,minecraft:spruce_slab,minecraft:jungle_slab,minecraft:acacia_slab,minecraft:dark_oak_slab,minecraft:crimson_slab,minecraft:warped_slab",
+      "item3": "minecraft:oak_slab,minecraft:birch_slab,minecraft:spruce_slab,minecraft:jungle_slab,minecraft:acacia_slab,minecraft:dark_oak_slab,minecraft:crimson_slab,minecraft:warped_slab",
+      "item4": "minecraft:oak_trapdoor,minecraft:birch_trapdoor,minecraft:spruce_trapdoor,minecraft:jungle_trapdoor,minecraft:acacia_trapdoor,minecraft:dark_oak_trapdoor,minecraft:crimson_trapdoor,minecraft:warped_trapdoor",
+      "item5": "",
+      "item6": "minecraft:oak_trapdoor,minecraft:birch_trapdoor,minecraft:spruce_trapdoor,minecraft:jungle_trapdoor,minecraft:acacia_trapdoor,minecraft:dark_oak_trapdoor,minecraft:crimson_trapdoor,minecraft:warped_trapdoor",
+      "item7": "minecraft:oak_slab,minecraft:birch_slab,minecraft:spruce_slab,minecraft:jungle_slab,minecraft:acacia_slab,minecraft:dark_oak_slab,minecraft:crimson_slab,minecraft:warped_slab",
+      "item8": "minecraft:oak_slab,minecraft:birch_slab,minecraft:spruce_slab,minecraft:jungle_slab,minecraft:acacia_slab,minecraft:dark_oak_slab,minecraft:crimson_slab,minecraft:warped_slab",
+      "item9": "minecraft:oak_slab,minecraft:birch_slab,minecraft:spruce_slab,minecraft:jungle_slab,minecraft:acacia_slab,minecraft:dark_oak_slab,minecraft:crimson_slab,minecraft:warped_slab",
+      "finalitem": "farmersdelight:oak_pantry,farmersdelight:birch_pantry,farmersdelight:spruce_pantry,farmersdelight:jungle_pantry,farmersdelight:acacia_pantry,farmersdelight:dark_oak_pantry,farmersdelight:crimson_pantry,farmersdelight:warped_pantry",
+      "info": "橱柜是造型类似装饰性箱子/桶的储存性方块， 拥有$(t:相当于一个小箱子)$(#00FF00)27格的储存空间$()。 "
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname":"篮子",
+      "item1": "minecraft:bamboo",
+      "item3": "minecraft:bamboo",
+      "item4": "farmersdelight:canvas",
+      "item6": "farmersdelight:canvas",
+      "item7": "minecraft:bamboo",
+      "item8": "farmersdelight:canvas",
+      "item9": "minecraft:bamboo",
+      "finalitem": "farmersdelight:basket",
+      "info": "篮子拥有27格储存空间， $(t:朝向侧可接受物品， 但不能主动向外转移)$(#00FF00)行为类似漏斗， 但不能将物品输出到下方的漏斗$()。 "
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "储物板条箱 （箱装食材） ",
+      "item1": "minecraft:carrot,minecraft:potato,minecraft:beetroot,farmersdelight:cabbage,farmersdelight:tomato,farmersdelight:onion,farmersdelight:rice,farmersdelight:rice_panicle,farmersdelight:straw",
+      "item2": "minecraft:carrot,minecraft:potato,minecraft:beetroot,farmersdelight:cabbage,farmersdelight:tomato,farmersdelight:onion,farmersdelight:rice,farmersdelight:rice_panicle,farmersdelight:straw",
+      "item3": "minecraft:carrot,minecraft:potato,minecraft:beetroot,farmersdelight:cabbage,farmersdelight:tomato,farmersdelight:onion,farmersdelight:rice,farmersdelight:rice_panicle,farmersdelight:straw",
+      "item4": "minecraft:carrot,minecraft:potato,minecraft:beetroot,farmersdelight:cabbage,farmersdelight:tomato,farmersdelight:onion,farmersdelight:rice,farmersdelight:rice_panicle,farmersdelight:straw",
+      "item5": "minecraft:carrot,minecraft:potato,minecraft:beetroot,farmersdelight:cabbage,farmersdelight:tomato,farmersdelight:onion,farmersdelight:rice,farmersdelight:rice_panicle,farmersdelight:straw",
+      "item6": "minecraft:carrot,minecraft:potato,minecraft:beetroot,farmersdelight:cabbage,farmersdelight:tomato,farmersdelight:onion,farmersdelight:rice,farmersdelight:rice_panicle,farmersdelight:straw",
+      "item7": "minecraft:carrot,minecraft:potato,minecraft:beetroot,farmersdelight:cabbage,farmersdelight:tomato,farmersdelight:onion,farmersdelight:rice,farmersdelight:rice_panicle,farmersdelight:straw",
+      "item8": "minecraft:carrot,minecraft:potato,minecraft:beetroot,farmersdelight:cabbage,farmersdelight:tomato,farmersdelight:onion,farmersdelight:rice,farmersdelight:rice_panicle,farmersdelight:straw",
+      "item9": "minecraft:carrot,minecraft:potato,minecraft:beetroot,farmersdelight:cabbage,farmersdelight:tomato,farmersdelight:onion,farmersdelight:rice,farmersdelight:rice_panicle,farmersdelight:straw",
+      "finalitem":"farmersdelight:carrot_crate,farmersdelight:potato_crate,farmersdelight:beetroot_crate,farmersdelight:cabbage_crate,farmersdelight:tomato_crate,farmersdelight:onion_crate,farmersdelight:rice_bag,farmersdelight:rice_bale,farmersdelight:straw_bale",
+      "info": "农夫乐事添加了一些可用于储存更多食物的方块。  （如果你安装了quark， 你应该在设置里关掉板条箱(crates)， 以防止配方冲突） "
+    }
+  ]
+}

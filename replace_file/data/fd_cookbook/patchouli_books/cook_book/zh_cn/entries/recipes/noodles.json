@@ -1,0 +1,105 @@
+{
+  "name": "面条与米饭",
+  "icon": "farmersdelight:pasta_with_meatballs",
+  "category": "recipes",
+  "sortnum": "2",
+  "pages": [
+    {
+      "type": "crafting_table",
+      "foodname": "生意面",
+      "item1": "minecraft:egg",
+      "item2": "minecraft:wheat",
+      "item4": "minecraft:wheat",
+      "finalitem": "farmersdelight:raw_pasta",
+      "hunger_amount": "$(t:<1.18.2)x1.5$(), $(t:>=1.18.2)x1$()",
+      "saturation_amount": "$(t:<1.18.2)x1.2$(), $(t:>=1.18.2)x0.6$()",
+      "effect": "30%的几率带来30秒的$(4)饥饿$()效果"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "米饭",
+      "item1": "farmersdelight:rice",
+      "finalitem": "farmersdelight:cooked_rice",
+      "container": "minecraft:bowl",
+      "hunger_amount": "x3",
+      "saturation_amount": "x2.4",
+      "effect": "必定带来30秒的$(l:basics/effects)$(9)舒适$()效果"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "蔬菜面",
+      "item1": "minecraft:carrot",
+      "item2": "minecraft:brown_mushroom",
+      "item3": "farmersdelight:raw_pasta",
+      "item4": "farmersdelight:cabbage,farmersdelight:cabbage_leaf",
+      "item5": "minecraft:carrot,minecraft:potato,minecraft:beetroot,farmersdelight:onion,farmersdelight:tomato",
+      "finalitem": "farmersdelight:vegetable_noodles",
+      "container": "minecraft:bowl",
+      "hunger_amount": "$(t:<1.18.2)x6$(), $(t:>=1.18.2)x7$()",
+      "saturation_amount": "$(t:<1.18.2)x10.8$(), $(t:>=1.18.2)x10.5$()",
+      "effect": "必定带来5分钟的$(l:basics/effects)$(#FFB100)滋养$()效果"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "鱿鱼墨面",
+      "item1": "minecraft:cod,farmersdelight:cod_slice,minecraft:salmon,farmersdelight:salmon_slice,minecraft:tropical_fish",
+      "item2": "farmersdelight:raw_pasta",
+      "item3": "farmersdelight:tomato",
+      "item4": "minecraft:ink_sac",
+      "finalitem": "farmersdelight:squid_ink_pasta",
+      "container": "minecraft:bowl",
+      "hunger_amount": "$(t:<1.18.2)x6$(), $(t:>=1.18.2)x7$()",
+      "saturation_amount": "$(t:<1.18.2)x10.8$(), $(t:>=1.18.2)x10.5$()",
+      "effect": "必定带来5分钟的$(l:basics/effects)$(#FFB100)滋养$()效果"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "肉丸意面",
+      "item1": "farmersdelight:minced_beef",
+      "item2": "farmersdelight:raw_pasta",
+      "item3": "farmersdelight:tomato_sauce",
+      "finalitem": "farmersdelight:pasta_with_meatballs",
+      "container": "minecraft:bowl",
+      "hunger_amount": "$(t:<1.18.2)x5$(), $(t:>=1.18.2)x6$()",
+      "saturation_amount": "$(t:<1.18.2)x8$(), $(t:>=1.18.2)x9.6$()",
+      "effect": "必定带来3分钟的$(l:basics/effects)$(#FFB100)滋养$()效果"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "羊排意面",
+      "item1": "minecraft:mutton",
+      "item2": "farmersdelight:raw_pasta",
+      "item3": "farmersdelight:tomato_sauce",
+      "finalitem": "farmersdelight:pasta_with_mutton_chop",
+      "container": "minecraft:bowl",
+      "hunger_amount": "$(t:<1.18.2)x5$(), $(t:>=1.18.2)x6$()",
+      "saturation_amount": "$(t:<1.18.2)x8$(), $(t:>=1.18.2)x9.6$()",
+      "effect": "必定带来3分钟的$(l:basics/effects)$(#FFB100)滋养$()效果"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "炒饭",
+      "item1": "farmersdelight:",
+      "item2": "minecraft:egg",
+      "item3": "minecraft:carrot",
+      "item4": "farmersdelight:onion",
+      "finalitem": "farmersdelight:fried_rice",
+      "container": "minecraft:bowl",
+      "hunger_amount": "$(t:<1.18.2)x6$(), $(t:>=1.18.2)x7$()",
+      "saturation_amount": "$(t:<1.18.2)x10.8$(), $(t:>=1.18.2)x10.5$()",
+      "effect": "必定带来5分钟的$(l:basics/effects)$(#FFB100)舒适$()效果"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "饺子",
+      "item1": "farmersdelight:raw_pasta",
+      "item2": "farmersdelight:cabbage,farmersdelight:cabbage_leaf",
+      "item3": "farmersdelight:onion",
+      "item4": "minecraft:chicken,farmersdelight:chicken_cuts,minecraft:porkchop,farmersdelight:bacon,minecraft:brown_mushroom",
+      "finalitem": "farmersdelight:dumplings",
+      "hunger_amount": "x4",
+      "saturation_amount": "x6.4",
+      "effect": "无"
+    }
+  ]
+}

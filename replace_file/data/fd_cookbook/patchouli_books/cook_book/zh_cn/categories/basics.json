@@ -1,0 +1,6 @@
+{
+	"name": "基础",
+	"description": "在这一章， 你会逐步了解基础知识， 入门农夫乐事。  （注： 鼠标悬停在$(t:看我看我)$(#00FF00)绿字$()上可以查看一些细节知识） ",
+	"icon": "farmersdelight:textures/item/cooking_pot.png",
+	"sortnum": "0"
+}

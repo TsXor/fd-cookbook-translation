@@ -1,0 +1,62 @@
+{
+    "name": "野生作物",
+    "icon": "farmersdelight:wild_carrots",
+    "category": "basics",
+    "sortnum": "1",
+    "pages": [
+        {
+            "type": "text",
+            "title": "野生作物",
+            "text": "农夫乐事新增了四种作物 （卷心菜， 洋葱， 番茄和稻米） ， 这些作物全都可以在野外找到， 原版的三种作物 （萝卜， 土豆和甜菜） 也添加了野生亚种。 "
+        },
+        {
+            "type": "image",
+            "title": "野生胡萝卜",
+            "images": ["fd_cookbook:textures/gui/cookbook/wild_carrot.png"],
+            "text": "野生胡萝卜生长在温暖群系中 （温度为 0.3 - 1.0） 。 ",
+            "border": true
+        },
+        {
+            "type": "image",
+            "title": "野生马铃薯",
+            "images": ["fd_cookbook:textures/gui/cookbook/wild_potato.png"],
+            "text": "野生马铃薯生长在寒冷群系中 （温度为 0.0 - 0.3） 。 ",
+            "border": true
+        },
+        {
+            "type": "image",
+            "title": "海甜菜",
+            "images": ["fd_cookbook:textures/gui/cookbook/sea_beet.png"],
+            "text": "海甜菜生长在沙滩上。 ",
+            "border": true
+        },
+        {
+            "type": "image",
+            "title": "野生卷心菜",
+            "images": ["fd_cookbook:textures/gui/cookbook/wild_cabbage.png"],
+            "text": "野生卷心菜生长在沙滩上。 ",
+            "border": true
+        },
+        {
+            "type": "image",
+            "title": "野生洋葱",
+            "images": ["fd_cookbook:textures/gui/cookbook/wild_onion.png"],
+            "text": "野生洋葱生长在温暖群系中 （温度为 0.3 - 1.0） 。 ",
+            "border": true
+        },
+        {
+            "type": "image",
+            "title": "番茄藤 （番茄灌木） ",
+            "images": ["fd_cookbook:textures/gui/cookbook/tomato_vines.png"],
+            "text": "番茄藤 （番茄灌木） 生长在炎热群系中 （温度 > 1） 。 ",
+            "border": true
+        },
+        {
+            "type": "image",
+            "title": "野生稻米",
+            "images": ["fd_cookbook:textures/gui/cookbook/wild_rice.png"],
+            "text": "生长在沼泽或丛林中一格深的水中。 ",
+            "border": true
+        }
+    ]
+}

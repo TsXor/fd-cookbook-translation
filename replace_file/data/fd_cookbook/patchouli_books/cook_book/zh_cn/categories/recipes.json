@@ -1,0 +1,6 @@
+{
+  "name": "配方",
+  "description": "本章展示所有能做出的美食。 如果你想要某样特定的美食， 输入它的名字即可。  （注： 本章的数据如无特殊说明版本， 皆基于农夫乐事对应MC 1.16.5版本的源代码。 饱和度按照$(t:详见农夫乐事代码)nutrition$() x $(t:详见农夫乐事代码)saturationMod$() x 2计算， 1个“鸡腿图标”相当于2点饥饿值/饱和度。 ） ",
+  "icon": "farmersdelight:tomato_sauce",
+  "sortnum": "1"
+}

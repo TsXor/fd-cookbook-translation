@@ -1,0 +1,54 @@
+{
+  "name": "饮料",
+  "icon": "farmersdelight:hot_cocoa",
+  "category": "recipes",
+  "sortnum": "8",
+  "pages": [
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "瓶装奶 （奶瓶） ",
+      "item1": "minecraft:milk_bucket",
+      "item2": "minecraft:glass_bottle",
+      "item4": "minecraft:glass_bottle",
+      "item5": "minecraft:glass_bottle",
+      "finalitem": "farmersdelight:milk_bottle",
+      "amount": "3",
+      "info": "$(t:以防你不知道： 原书中这里写的是“无”)$(#00FF00)随机去除一个饮用者已有的原版奶桶可去除的效果， 无论负面还是正面。 $()"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "热可可",
+      "item1": "minecraft:milk_bucket,farmersdelight:milk_bottle",
+      "item2": "minecraft:sugar",
+      "item3": "minecraft:cocoa_beans",
+      "item4": "minecraft:cocoa_beans",
+      "finalitem": "farmersdelight:hot_cocoa",
+      "container": "minecraft:glass_bottle",
+      "effect": "$(#00A74A)随机去除一个饮用者已有的原版奶桶可去除的效果， 但只去除负面效果。 $()"
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "西瓜汁",
+      "title_notice": "$(t:原书没写这个物品)$(#00FF00)拾遗$()",
+      "item1": "minecraft:melon_slice",
+      "item2": "minecraft:melon_slice",
+      "item3": "minecraft:sugar",
+      "item4": "minecraft:melon_slice",
+      "item5": "minecraft:melon_slice",
+      "item6": "minecraft:glass_bottle",
+      "finalitem": "farmersdelight:melon_juice",
+      "info": "恢复2点生命值 （1颗心） 。 "
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "苹果酒",
+      "title_notice": "$(t:原书没写这个物品)$(#00FF00)拾遗$()",
+      "item1": "minecraft:apple",
+      "item2": "minecraft:apple",
+      "item3": "minecraft:sugar",
+      "finalitem": "farmersdelight:apple_cider",
+      "container": "minecraft:glass_bottle",
+      "effect": "必定带来1分钟的$(9)伤害吸收$()效果"
+    }
+  ]
+}
